@@ -8,11 +8,14 @@ let question = prompt(`Що ти хочеi зробити (+, -, *, /)`);
 let number1 = prompt(`Питаємо у користувача перше число`, 'Введіть перше число');
 let number2 = prompt(`Питаємо у користувача друге число`, 'Введіть друге число');
 
+number1 = Number(number1);
+number2 = Number(number2);
+
 let result = 0;
 
 switch (question) {
     case "+":
-        result = Number(number1) + Number(number2);
+        result = number1 + number2;
         break;
     case "-":
         result = number1 - number2;
