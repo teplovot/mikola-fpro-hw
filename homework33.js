@@ -54,8 +54,5 @@ switch (sportYour) {
         sportYour = `Твій улюблений вид спорту ${sportYour}`;
         break;
 }
-sportYour = sportYour;
-
-
 
 alert(`${ageYour}\n${cityYour}\n${sportYour}`);
